@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  pedido-app:
+  - apiVersion: v2
+    created: "2025-09-11T19:05:14.0131556-05:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.5
+    digest: 280ddeaf6c13059454c5741a304c8243f3753f792da4000695337adcdd361352
+    name: pedido-app
+    urls:
+    - https://idgualtero.github.io/helm-charts/charts/pedido-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-09-11T19:05:14.0090285-05:00"
