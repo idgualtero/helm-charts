@@ -1,7 +1,7 @@
 backend:
   image:
     repository: rougev/pedido-backend
-    tag: latest
+    tag: 16
   replicas: 2
   resources:
     limits:
