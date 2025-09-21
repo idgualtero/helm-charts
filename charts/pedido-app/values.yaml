@@ -10,7 +10,7 @@ postgresql:
 backend:
   image:
     repository: rougev/pedido-backend
-    tag: "1.0.1"
+    tag: 13
   replicas: 2
   db:
     host: pedido-app-postgresql.my-tech.svc.cluster.local
