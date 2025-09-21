@@ -3,4 +3,6 @@ kind: ConfigMap
 metadata:
   name: backend-config
 data:
-  db_host: {{ .Values.backend.db.host }}
+  DB_HOST: {{ .Values.backend.db.host }}
+  DB_NAME: {{ .Values.backend.db.name }}
+  DB_PORT: "{{ .Values.backend.db.port }}"
